@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Celsius Hub</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div class="main">
+        <div class="icon">
+            <a href="#">Celsius <span>Hub</span></a>
+        </div>
+        <div class="menu">
+            
+            <ul id="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Useful-Info</a></li>&nbsp;&nbsp;&nbsp;
+                <div class="searchhh">
+                <li><input type="search" class="srch" name="", placeholder="Search"></input></li>
+                <li><button type="search" class="btn">Search</button></li>
+            </div>
+                <div class="closee" id="closee" onclick="closes()"><img src="close.png"></div>
+            </ul>
+            <div class="menu-ham" id="menu-ham" onclick="show()"><img src="menuu.png"></div>
+            </div>
+        </div>
+
+            <div class="main-content" id="main-content">
+                <div class="content-word" id="content-word">
+                
+                </div>
+
+                
+            </div>
+    
+
+            <div class="box-container">
+                <div class="container-content">
+                    <div class="cel-fah">
+                        <h2>Celsius - Fahrenheit</h2>
+                        <p>for Celsius to Fahrenhiet conversion, click on the button below</p><br><br>
+                        <a href="celtofah.html">Cel-Fah</a>
+                    </div>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <div class="fah-cel">
+                        <h2>  Fahrenheit - Celsius</h2>
+                        <p>for Fahrenhiet to Celsius conversion, click on the button below</p><br><br>
+                        <a href="fahrenheit to celsius.html">Fah - Cel</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box-container">
+                <div class="container-content">
+                    <div class="cel-fah">
+                        <h2>Celsius - Rankine</h2>
+                        <p>for Celsius to Rankine conversion, click on the button below</p><br><br>
+                        <a href="celsius to rankine.html">Cel-Fah</a>
+                    </div>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    
+                    <div class="fah-cel">
+                        <h2>  Fahrenheit - Rankine</h2>
+                        <p>for Fahrenhiet to Rankine conversion, click on the button below</p><br><br>
+                        <a href="fahrenheit to rankine.html">Fah - Cel</a>
+                    </div>
+                </div>
+            </div> 
+
+
+            
+
+            <div class="footer">
+                <footer>
+                    
+                    <p>&copyEducative / Creative / Inspiring </p>
+                    <p>Designed by <span>Lord Samstar </span>08032756737</p>
+                </footer>
+            </div>
+</body>
+
+<script>
+    var menu = document.getElementById("menu-ham");
+    var closee = document.getElementById("closee");
+    var links = document.getElementById("links");
+    var content = document.getElementById("content-word");
+
+    function show(){
+        links.style.display = "block";
+        links.style.top = "1000px";
+        links.style.transition = ".5s ease";
+        menu.style.display = "none";
+        content.style.display = "none";
+        closee.style.display = "block";
+    }
+
+    function closes(){
+        links.style.display = "none";
+        links.style.top = "1000px";
+        links.style.transition = ".5s";
+        menu.style.display = "block";
+        content.style.display = "block";
+        closee.style.display = "none";
+    }
+</script>
+</html>
+
+<script>
+    var mainn = document.getElementById('main-content');
+    var image1 = document.getElementById('butn2');
+    var image1 = document.getElementById('butn3');
+
+    function gotoone(){
+        mainn.style.backgroundImage = "url(bgimage.jpg)";
+    }
+</script>

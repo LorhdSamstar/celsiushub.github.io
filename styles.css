@@ -1,0 +1,364 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+.main{
+    width: 100%;
+    background: black;
+    height: 10vh;
+}
+
+.icon{
+    margin: 10px;
+    top: 0px;
+    padding: 20px;
+    width: 200px;
+}
+.icon a{
+    text-decoration: none;
+    font-family: arial;
+    color: orange;
+    font-size: 25px;
+}
+
+.icon a span{
+    color: white;
+}
+
+.menu{
+    float: left;
+    width: 100%;
+}
+
+.menu ul{
+    float: right;
+    display: flex;
+    padding-right: 20px;
+    margin-top: -50px;
+    list-style:  none;
+    margin-right: 200px;
+}
+
+.searchhh{
+    margin-left: 100px;
+    display: flex;
+}
+
+.menu ul li a{
+    justify-content: space-between;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: arial;
+    transition:.4s ease all;
+    
+}
+
+.menu ul li a:hover{
+    color: orange;
+}
+
+.menu-ham{
+    display: none;
+}
+
+.closee{
+    display: none;
+}
+
+ .srch{
+    width: 200px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 5px 5px;
+    margin-top: -5px;
+}
+
+.btn{
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 14px;
+    margin-top: -5px;
+    transition: .4s ease;
+}
+
+.btn:hover{
+    cursor:pointer;
+    background: white;
+    color: orange;
+}
+
+.content-word{
+    width:100%;
+}
+
+.main-content{
+    width: 100%;
+    height: 70vh;
+    background: url('bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;]
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-word{
+    width:100%;
+    position: absolute;
+    margin: 30px;
+    height: 20vh;
+}
+
+.main-content h1{
+    color: white;
+    font-size: 40px;
+    font-family: arial;
+}
+
+.main-content p{
+    color: white;
+    font-family: arial;
+}
+
+.main-content h1 span{
+    color: orange;
+}
+
+.slide-show-butn{
+width: 100%;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top:280px;
+}
+
+.slide-show-butn button{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: none;
+    background: white;
+    margin: 5px;
+}
+
+.box-container{
+
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+    background: url;
+    background:linear-gradient(to bottom(rgba(0,0,0,0.5), rgba(241, 182, 182, 0.1)50%));
+    margin: 5px;
+    flex-direction: row;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    
+    
+}
+
+.container-content{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    flex-direction:row;
+    justify-content: space-around;
+    padding:;
+}
+
+.cel-fah{
+    
+    background: black;
+    padding: 70px 50px;
+    padding:;
+    text-align: center;
+    color: white;
+}
+
+
+.fah-cel{
+    
+    background: black;
+    padding: 70px 50px;
+    padding:;
+    text-align: center;
+    color: white;
+}
+
+.container-content h2{
+    color: white;
+    font-family: arial;
+}
+
+.container-content p{
+    color: orange;
+    font-family: arial;
+}
+
+.container-content a{
+    text-decoration: none;
+    color: white;
+    background: orange;
+    font-family: arial;
+    border-radius: 20px;
+    padding: 10px 12px;
+    margin-top: 10px;
+    transition: .3s ease all;
+}
+
+.container-content a:hover{
+    letter-spacing: 2px;
+    transition: .3s ease all;
+}
+
+.footer{
+    text-align: center;
+    font-family: arial;
+    background: orange;
+    margin-top: -5px;
+    padding: 15px 0px;
+}
+
+.footer span{
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+
+@media(max-width: 990px){
+
+    .btn{
+        display: none;
+    }
+
+    .srch{
+        display: none;
+    }
+
+
+    .slide-show-butn{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top:200px;
+        }
+        
+        .slide-show-butn button{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: none;
+            background: white;
+            margin: 5px;
+        }
+
+        .menu{
+            float: left;
+            width: 100%;
+            
+        }
+
+        
+        .menu ul{
+            float: left;
+            list-style:  none;
+            display:none;
+            top: -1000px;
+            flex-direction: column;
+            background: black;
+            width: 100%;
+            height: 50vh;
+            text-align: center;
+            transition: .5s ease all;
+            
+
+        }
+
+        .menu ul li{
+            padding: 20px;
+        }
+        
+        .menu ul li a{
+            justify-content: space-between;
+            padding: 10px;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px;
+            color: white;
+            text-transform: uppercase;
+            font-size: 15px;
+            font-family: arial;
+            
+        }
+
+        .closee img{
+            float: right;
+            margin-top: -250px;
+            display: block;
+        }
+
+        .closee{
+            display: none;
+        }
+
+        .menu-ham{
+            width: 30px;
+            height: 30px;
+            float: right;
+            margin-top: -80px;
+            margin-right: 30px;
+            display: block;
+        }
+
+        .main-content h1{
+            color: white;
+            font-size: 30px;
+            font-family: arial;
+ 
+       }
+
+       .content-word{
+           width: 70%;
+       }
+
+       .container-content{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin: 20px auto;
+        flex-direction:row;
+        padding: 5px;
+        justify-content: space-around;
+    }
+        
+    .box-container{
+        margin: ;
+        justify-content: space-around;
+        height:
+        
+    }
+
+}
